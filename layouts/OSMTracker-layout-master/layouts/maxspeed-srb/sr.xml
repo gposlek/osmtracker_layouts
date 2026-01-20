@@ -1,0 +1,61 @@
+<layouts>
+        <layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="page" label="Regularna ograničenja" targetlayout="regular"/>
+			<button type="page" label="Implicitna ograničenja" targetlayout="implicit"/>
+		</row>
+        </layout>
+	<layout name="regular">
+		<row>
+			<button type="tag" label="RS:II-30[10]" icon="maxspeed-srb_icons/010.png"/>
+			<button type="tag" label="RS:II-30[60]" icon="maxspeed-srb_icons/060.png"/>
+			<button type="tag" label="RS:II-30[110]" icon="maxspeed-srb_icons/110.png"/>
+		</row>
+		<row>
+			<button type="tag" label="RS:II-30[20]" icon="maxspeed-srb_icons/020.png"/>
+			<button type="tag" label="RS:II-30[70]" icon="maxspeed-srb_icons/070.png"/>
+			<button type="tag" label="RS:II-30[120]" icon="maxspeed-srb_icons/120.png"/>
+		</row>
+		<row>
+			<button type="tag" label="RS:II-30[30]" icon="maxspeed-srb_icons/030.png"/>
+			<button type="tag" label="RS:II-30[80]" icon="maxspeed-srb_icons/080.png"/>
+			<button type="tag" label="RS:II-30[130]" icon="maxspeed-srb_icons/130.png"/>
+		</row>
+		<row>
+			<button type="tag" label="RS:II-30[40]" icon="maxspeed-srb_icons/040.png"/>
+			<button type="tag" label="RS:II-30[90]" icon="maxspeed-srb_icons/090.png"/>
+			<button type="tag" label="RS:III-17" icon="maxspeed-srb_icons/end_unnumnered.png"/>
+		</row>
+		<row>
+			<button type="tag" label="RS:II-30[50]" icon="maxspeed-srb_icons/050.png"/>
+			<button type="tag" label="RS:II-30[100]" icon="maxspeed-srb_icons/100.png"/>
+			<button type="tag" label="Error" icon="maxspeed-srb_icons/ERR.png"/>
+		</row>
+        </layout>
+	<layout name="implicit">
+		<row>
+			<button type="tag" label="RS:III-24" icon="maxspeed-srb_icons/city_start.png"/>
+			<button type="tag" label="RS:III-27" icon="maxspeed-srb_icons/zone30_start.png"/>
+			<button type="tag" label="RS:III-28" icon="maxspeed-srb_icons/school_start.png"/>
+		</row>
+		<row>
+			<button type="tag" label="RS:III-24.1" icon="maxspeed-srb_icons/city_end.png"/>
+			<button type="tag" label="RS:III-27.1" icon="maxspeed-srb_icons/zone30_end.png"/>
+			<button type="tag" label="RS:III-28.1" icon="maxspeed-srb_icons/school_end.png"/>
+		</row>
+		<row>
+			<button type="tag" label="RS:III-29" icon="maxspeed-srb_icons/livingstreet_start.png"/>
+			<button type="tag" label="RS:III-29.1" icon="maxspeed-srb_icons/livingstreet_end.png"/>
+			<button type="tag" label="Error" icon="maxspeed-srb_icons/ERR.png"/>
+		</row>
+		<row>
+			<button type="tag" label="RS:II-1" icon="maxspeed-srb_icons/give_way.png"/>
+			<button type="tag" label="RS:II-2" icon="maxspeed-srb_icons/stop.png"/>
+		</row>
+	</layout>
+</layouts>
